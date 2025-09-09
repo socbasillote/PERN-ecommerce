@@ -8,7 +8,7 @@ function ThemeSelector() {
     const { theme, setTheme } = useThemeStore();
     
   return (
-    <div className='dropdown dropdown-end'>
+    <div className='dropdown dropdown-end z-50'>
         {/*  DROPDOWN TRIGGER */}
 
         <button tabIndex={0} className='btn btn-ghost btn-circle'>
