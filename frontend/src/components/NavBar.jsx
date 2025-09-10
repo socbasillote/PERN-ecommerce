@@ -11,7 +11,7 @@ export default function NavBar() {
   
   const {products} = useProductStore();
   return (
-    <div className='bg-base-100/80 backdrop-blur-lg border-b border-base-content/10 stick top-10 z-50'>
+    <div className='bg-base-100/80 backdrop-blur-lg border-b border-base-content/10 sticky  z-50'>
       <div className='max-w-7xl mx-auto'>
         <div className='navbar px-4 min-h-[4rem] justify-between'>
           {/* LOGO */}
@@ -29,7 +29,7 @@ export default function NavBar() {
           </div>
 
           {/* Right section */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 z-50">
             <ThemeSelector />
 
             {isHomePage && (

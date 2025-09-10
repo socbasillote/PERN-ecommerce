@@ -45,7 +45,7 @@ function ProductPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mx-auto px-4 py-8 max-w-4xl z-0">
         <button onClick={() => navigate("/")} className="btn btn-ghost mb-8">
           <ArrowLeftIcon className="size-4 mr-2" />
           Back to Products

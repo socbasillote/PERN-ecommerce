@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
 import { useThemeStore } from './store/useThemeStore';
 import {Toaster} from "react-hot-toast";
+import CartPage from './pages/CartPage';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path='/product/:id' element={<ProductPage />} />
+        <Route path='/cart' element={<CartPage />} />
       </Routes>
 
       <Toaster />
